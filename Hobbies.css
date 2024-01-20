@@ -1,0 +1,196 @@
+*{
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+    margin: 20px auto;
+    
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.main {
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    min-height: 200px;
+    color: #382f26;
+}
+
+/*navbar*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: rgba(1, 1, 1, 0.8);
+    border-bottom: 1px solid #513c28;
+    position: fixed;
+    top: 0%;
+    right:0%;
+    left: 0%;
+    z-index: 9999;
+    background-position: inherit;
+    margin-bottom: 15%;
+}
+
+.navbar .navbar-logo{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.navbar .navbar-logo span {
+    color: #513c28;
+}
+
+.navbar-nav {
+    width: -50%;
+    margin: -3%;
+    padding: 35px 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: -5%;
+
+ }
+ .na { 
+    color: white;
+    font-family: sans-serif;
+    width: 200px;
+    font-size: large;
+    text-transform: uppercase;
+    justify-content: space-between;
+    
+ }
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    
+}
+.navbar ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    left: 20%;
+
+}
+.navbar ul li ::after {
+    content: '';
+    height: 5px;
+    width: 0;
+    background:#382f26;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover ::after {
+    width: 100%;
+}
+
+
+/*content*/ 
+
+.content{
+    width: 100%;
+    height: 100vh;
+}
+.content h1 {
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: 600;
+    text-align: center;
+}
+.content .hobby1 {
+    background-color: #382f26;
+    width: 100%;
+    margin: 20px auto;
+    font-weight: 100;
+    font-family: 'Poppins';
+    height: 100vh;
+    font-size: 30px;
+    text-decoration: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.content .hobby1 p {
+    color: black;
+}
+
+.content .hobby1 .img {
+    width: 100%;
+}
+.content .hobby2 {
+    background-color: #382f26;
+    width: 100%;
+    margin: 20px auto;
+    font-weight: 100;
+    font-family: 'Poppins';
+    height: 100vh;
+    font-size: 30px;
+    text-height: inherit;
+    text-decoration: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.content .hobby2 p {
+    color: black;
+}
+.content .hobby2 .img {
+    width: 100%;
+}
+.content .hobby3 {
+    background-color: #382f26;
+    width: 100%;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 30px;
+    font-family: 'Poppins';
+    height: 100vh;
+    font-size: 30px;
+    text-height: inherit;
+    text-decoration: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.content .hobby3 p {
+    color: black;
+}
+
+.content .hobby3 .img {
+    width: 100%;
+}
+button {
+    width: 50%;
+    margin: 20px 10px;
+    padding: 15px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    background: transparent;
+    border: 3px solid rgb(109, 92, 49);
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+}
